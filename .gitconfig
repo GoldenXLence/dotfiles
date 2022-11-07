@@ -4,3 +4,9 @@
 [user]
     name = "Jack Koskie"
     email = "65452167+GoldenXLence@users.noreply.github.com"
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
